@@ -1,0 +1,11 @@
+.btn{
+    outline: 1px solid black;
+}
+
+.btn:checked{
+    border: none;
+}
+
+.Seleccionar{
+    margin-left: 5px;
+}

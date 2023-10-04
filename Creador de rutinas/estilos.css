@@ -1,0 +1,119 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(250, 235, 215);
+    padding: 5px;
+    height: 250px;
+    width: 120px;
+}
+
+.card-img-top{ 
+    margin: 0 auto;
+    position: relative;
+    left: 10%;
+}
+
+table{
+    border: 1px solid black;
+}
+
+.input-dias{
+    width: calc(100%/1);
+    height: auto;
+    resize: none;
+    overflow-x: auto;
+}
+
+.card:hover{
+    background-color: rgb(182, 177, 171);
+    opacity: 1.3;
+    transform: scale(1.03);
+}
+
+.p-inline{
+    display: inline;
+}
+
+.text-center{
+    text-align: center;
+    margin-right: 5px;
+}
+
+.card-contenedora{
+    position: relative;
+}
+
+@media screen and (max-width: 908px) {
+    .contenedor{
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 398px) {
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card-img-top{
+        width: 120px;
+        margin: auto;
+    }
+    
+    .contenedorInput{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .line-text{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+ 
+
+/* Estilos para los textos con líneas */
+.line-text {
+    display: flex;
+    align-items: center;
+}
+
+.line-text input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 50px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.card-img-top{
+    margin: auto;
+    width: 100px;
+}
+
+.seleccionar{
+    display: inline-block;
+}
+
+.btn{
+    outline: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.btn:checked{
+    border: none;
+}
+
+.Seleccionar{
+    margin-left: 5px;
+}
