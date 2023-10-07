@@ -126,3 +126,17 @@ table{
     margin: 10px;
     padding: 10px;
 }
+
+
+@media (max-width: 575.98px){
+    .card{
+    width:90px;
+    margin: 10px;
+    padding: 10px;
+    }
+    .line-text{
+        display: flex;
+        align-items: center;
+        flex-dirección: column;
+    }
+}
