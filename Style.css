@@ -51,10 +51,11 @@
 .btns-incio{
     display: flex;
     position: relative;
-   justify-content: center;
+    justify-content: center;
     align-content: flex-end;
     top: 70vh;
     z-index: 2000;
+    display: none;
 }
 
 .btns-incio button{
