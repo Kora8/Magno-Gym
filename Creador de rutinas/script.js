@@ -23,6 +23,21 @@ function getSelectedElements() {
         if (selectedElements.length > 0) {
             // Mostrar un alert con la cantidad de elementos seleccionados
             alert(`Has seleccionado ${selectedElements.length} elemento(s). Haz clic en Aceptar para continuar con la exportación.`);
+
+            //Poner el display a los inputs
+             var elementosSpan = document.querySelectorAll('span');
+            // Itera a través de la lista y cambia el estilo de display a flex para cada uno
+            elementosSpan.forEach(function(span) {
+              span.style.display = 'flex';
+            });
+            // Obtén una lista de todos los elementos <input> con la clase "form-control" en el documento
+            var elementosInput = document.querySelectorAll('input.form-control');
+
+            // Itera a través de la lista y cambia el estilo de display a flex para cada uno
+            elementosInput.forEach(function(input) {
+            input.style.display = 'flex';
+             });
+            
             
             // Crear un nuevo documento HTML con el contenido de los elementos seleccionados
             let nuevoHTML = '<html><head><title>Contenido Seleccionado</title>';
