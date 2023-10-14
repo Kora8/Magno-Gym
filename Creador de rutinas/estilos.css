@@ -89,6 +89,8 @@ table{
     align-items: center;
 }
 
+span{display: none;}
+
 .line-text input[type="number"] {
     border: none;
     border-bottom: 1px solid #000;
@@ -97,6 +99,9 @@ table{
     text-align: center;
 }
 
+.form-control{
+    display: none;
+}
 .card-img-top{
     margin: auto;
     width: 100px;
