@@ -57,7 +57,9 @@ table{
 
   @media screen and (max-width: 398px) {
     .contenedor{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: calc(100%/2);
         align-items: center;
     }
 
