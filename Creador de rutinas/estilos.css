@@ -1,6 +1,5 @@
 body{
     max-width: 100%;
-    overflow-x: visible;
 }
 
 .contenedor{
@@ -25,8 +24,6 @@ body{
 
 table{
     border: 1px solid black;
-    width: 100%;
-    overflow-x: auto;
 }
 
 }
@@ -153,4 +150,9 @@ span{display: none;}
         align-items: center;
         flex-dirección: column;
     }
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
 }
