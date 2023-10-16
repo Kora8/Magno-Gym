@@ -149,6 +149,11 @@
   font-family: 'Gabarito', sans-serif;
   border-radius: 8px;
  }
+ 
+  .bg-image {
+        background-size: contain; 
+        background-repeat: no-repeat;
+    }
   }
   
   /* Small (SM): Pantallas medianas, como tabletas en orientación vertical */
