@@ -40,7 +40,7 @@ function getSelectedElements() {
             
             
             // Crear un nuevo documento HTML con el contenido de los elementos seleccionados
-            let nuevoHTML = '<html><head><title>Contenido Seleccionado</title>';
+            let nuevoHTML = '<html><head><title>Tu rutina está lista!</title>';
             
             // Agregar el enlace a la hoja de estilos local
             nuevoHTML += '<link rel="stylesheet" href="estilos.css">';
