@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="EstilosSN.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="shortcut icon" href="../imagenes/Logo gym - copia (Personalizado) (1).png" type="image/x-icon">
- <!-- CSS de Bootstrap -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
 
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="../imagenes/Logo gym - copia (Personalizado).png" alt="logo" srcset="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,37 +36,51 @@
         </ul>
       </div>
     </nav>
+    <div class="portada">
+      <img src="grupo.png" alt="" srcset="" class="animate__animated animate__zoomInDown">
+      <h2 class="text-center animate__animated animate__zoomInDown">Sobre Nosotros</h2>
+    </div>
 
-  
+
   <section class="container my-5">
     <div class="row">
       <div class="col-lg-6">
-      <h2 class="mb-4">Sobre Nosotros</h2>
-      <p>Carlos, un apasionado del fitness, soñaba con abrir su gimnasio. A pesar de las dificultades financieras, trabajó duro y recibió el apoyo de su comunidad. Después de recaudar fondos y renovar un edificio, finalmente abrió su gimnasio, convirtiéndolo en un lugar de superación personal y comunidad. Su historia demuestra que los sueños pueden hacerse realidad con determinación y apoyo.</p>      
+      <h4 class="animate__animated animated-element-1 text-center mb-4">¿Sabes cómo se fundo Magno Gym?</h4>
+      <p class="animated-element-2 text-center">Carlos, un apasionado del fitness, soñaba con abrir su gimnasio. A pesar de las dificultades financieras, trabajó duro y recibió el apoyo de su comunidad. Después de recaudar fondos y renovar un edificio, finalmente abrió su gimnasio, convirtiéndolo en un lugar de superación personal y comunidad. Su historia demuestra que los sueños pueden hacerse realidad con determinación y apoyo.</p>      
       </div>
+      
       <div class="col-lg-6">
-        <img src="../imagenes/En gym mango 2.jpg" alt="" srcset="" width="100%">
+        <center>
+          <img src="../imagenes/En gym mango 2.jpg" alt="" srcset="" width="80%" class="animate__animated animated-element-3">
+        </center>
         </div>
         </div>
         </section>
 
-        <h3 class="text-center">Y recuerda que te esperamos con los brazos abiertos.</h3> <br>
 
+        <h3 class="text-center">Y recuerda que te esperamos con los brazos abiertos.</h3> <br>
         <div class="conteiner-fluid">
           <div class="row">
             <!--Img 65% del ancho del contenedor-->
-            <div class="col-md-7">
-              <img src="../imagenes/Ubicacion_mapa.PNG" alt="Imagen-ubicación" srcset="" height="320px" width="100%" class="ubicacion-img">
+            <div class="col-md-6">
+              <h5 class="text-center">Ven ya!</h5>
+                <p class="text-center">Nuestro equipo capacitado y nuestras instalaciones de alta calidad están a su disposición. Únanse a nuestra comunidad y juntos lograremos grandes resultados. ¡Comencemos a trabajar en sus metas hoy mismo!</p>
               </div>
               <!--Textos en columna e icono-->
-              <div class="col-md-5">
+              <div class="col-md-4">
                 <div class="d-flex justify-content-center align-items-center">
-                  <img src="../imagenes/iconos/pin-mapa.png" alt="Icono-ubicación" srcset="" width="90px">
+                  <img src="../imagenes/iconos/pin-mapa.png" alt="Icono-ubicación" srcset="" width="90px" class="animate__animated animated-element-4">
                   </div>
-                  <p class="text-center"><b>GYM</b></p>
-                  <p>Nuestro equipo capacitado y nuestras instalaciones de alta calidad están a su disposición. Únanse a nuestra comunidad y juntos lograremos grandes resultados. ¡Comencemos a trabajar en sus metas hoy mismo!  <a href="https://www.google.com.mx/maps/place/Tienda+Abarrotes+Villa+Magna/@19.6782455,-101.3260359,19z/data=!4m6!3m5!1s0x842d0a1be4b84547:0xdd0bb48b981e0622!8m2!3d19.6776372!4d-101.3261675!16s%2Fg%2F11dxq7xgny?entry=ttu" id="btn_ubicacion" target="_blank">Ubicación</a></p>
-                  <p class="text-center"><b style="color: rgb(72, 45, 14);">MAGNO</b></p>
-                  </div>
+                  <center>
+                    <p class="text-center"><b>GYM</b></p>
+                    <div class="contenedorUbicaion">
+                      <a href="https://www.google.com.mx/maps/place/Tienda+Abarrotes+Villa+Magna/@19.6782455,-101.3260359,19z/data=!4m6!3m5!1s0x842d0a1be4b84547:0xdd0bb48b981e0622!8m2!3d19.6776372!4d-101.3261675!16s%2Fg%2F11dxq7xgny?entry=ttu" class="boton-estilizado" style="--clr:rgb(96, 72, 14)">
+                        <span>Nuestra Ubicación</span> <i></i>
+                      </a>
+                    </div>
+                    <p class="text-center"><b style="color: rgb(72, 45, 14);">MAGNO</b></p>
+                  </center>
+                </div>
                   </div>
                   </div>
                   
@@ -73,7 +89,8 @@
         <p>&copy; 2023 Mi Compañía. Todos los derechos reservados</p>
       </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script src="myScript.js"></script>
 </body>
 </html>
